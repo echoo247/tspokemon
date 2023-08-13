@@ -1,0 +1,36 @@
+.pokemon img {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+}
+
+.pokemon img[src=""] {
+    display: block;
+    width: 100%;
+    height: 10em;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+.pokemon_name {
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.pokemon_types {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
